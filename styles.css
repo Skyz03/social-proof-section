@@ -18,13 +18,38 @@ body {
 
 .heading-section .description {
   opacity: 60%;
-  width: 70%;
+  width: 72%;
   font-size: 14px;
 }
 
-.rating-section {
+.rating-section .rating {
+  background-color: hsl(300, 24%, 96%);
+  width: 65%;
+  padding: 20px;
+  border-radius: 7px;
+}
+.rating-section p {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 12px;
 }
 
+.tab-one {
+  position: relative;
+  top: 20px;
+}
+
+.tab-two {
+  position: relative;
+  top: 25px;
+  left: 40px;
+}
+
+.tab-three {
+  position: relative;
+  top: 30px;
+  left: 90px;
+}
 .card-section {
   grid-column: span 2;
   margin-top: 50px;
