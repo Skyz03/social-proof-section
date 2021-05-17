@@ -1,0 +1,39 @@
+body {
+  background-color: white;
+  font-family: "Spartan", sans-serif;
+  font-weight: 400;
+  margin: 7%;
+  /* background-color: blue; */
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 150px;
+  gap: 70px;
+}
+
+.heading-section .title {
+  color: hsl(300, 43%, 22%);
+  font-size: 40px;
+  width: 60%;
+}
+
+.heading-section .description {
+  opacity: 60%;
+  width: 70%;
+  font-size: 14px;
+}
+
+.rating-section {
+}
+
+.card-section {
+  grid-column: span 2;
+  margin-top: 50px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
